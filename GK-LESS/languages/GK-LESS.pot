@@ -1,0 +1,118 @@
+# GK-LESS translation file
+# Copyright (C) 2013 GavickPro
+# This file is distributed under the same license as the PACKAGE package.
+# GavickPro <info@gavick.com>, 2013.
+#
+#, fuzzy
+msgid   ""
+msgstr  "Project-Id-Version: 1.0\n"
+        "Report-Msgid-Bugs-To: \n"
+        "POT-Creation-Date: 2013-09-26 16:00+0200\n"
+        "PO-Revision-Date: 2013-09-26 16:00+0200\n"
+        "Last-Translator: GavickPro <info@gavick.com>\n"
+        "Language-Team: en_US <en_US@li.org>\n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=CHARSET\n"
+        "Content-Transfer-Encoding: 8bit\n"
+
+#: GK-LESS.php:143
+#, php-format
+msgid   "%s LESS parser"
+msgstr  ""
+
+#: back-end/index.php:109
+msgid   "<strong>Warning!</strong> Please remember that the existing *.css "
+        "files can be overrided by new ones generated from the *.less files."
+msgstr  ""
+
+#: back-end/index.php:59
+msgid   "Admin bar button:"
+msgstr  ""
+
+#: back-end/index.php:43
+msgid   "Compile on demand:"
+msgstr  ""
+
+#: back-end/index.php:26
+msgid   "Compiler state:"
+msgstr  ""
+
+#: GK-LESS.php:244
+msgid   "Directory wasn't created: "
+msgstr  ""
+
+#: GK-LESS.php:143
+msgid   "Disable"
+msgstr  ""
+
+#: back-end/index.php:35 back-end/index.php:51 back-end/index.php:68
+msgid   "Disabled"
+msgstr  ""
+
+#: GK-LESS.php:143
+msgid   "Enable"
+msgstr  ""
+
+#: back-end/index.php:31 back-end/index.php:47 back-end/index.php:64
+msgid   "Enabled"
+msgstr  ""
+
+#: back-end/index.php:88
+msgid   "Files to compile:"
+msgstr  ""
+
+#: back-end/index.php:3 GK-LESS.php:120 GK-LESS.php:121
+msgid   "GK LESS"
+msgstr  ""
+
+#: GK-LESS.php:166
+msgid   "GK LESS errorlog"
+msgstr  ""
+
+#: back-end/index.php:7
+msgid   "GK LESS is a simple plugin which adds the LESS parsing feature to "
+        "your WordPress."
+msgstr  ""
+
+#: back-end/index.php:95
+msgid   "If the above list is blank, then all files will be compiled."
+msgstr  ""
+
+#: back-end/index.php:76
+msgid   "Input directory:"
+msgstr  ""
+
+#: GK-LESS.php:260
+msgid   "Last LESS recompilation was successful"
+msgstr  ""
+
+#: back-end/index.php:102
+msgid   "Output directory"
+msgstr  ""
+
+#: back-end/index.php:26
+msgid   "Please remember that the compilation process is time consuming - "
+        "disable the compiler if it is not necessary."
+msgstr  ""
+
+#: GK-LESS.php:156
+msgid   "Recompile the LESS files"
+msgstr  ""
+
+#: back-end/index.php:59
+msgid   "You can enable the admin bar button with useful links and options."
+msgstr  ""
+
+#: back-end/index.php:43
+msgid   "You can enable the compilation only when user adds in the URL "
+        "variable recompile=true - it is useful when you have a live website "
+        "and you cannot recompile the code on each website request."
+msgstr  ""
+
+#: back-end/index.php:107
+msgid   "Your directory with *.css files"
+msgstr  ""
+
+#: back-end/index.php:81
+msgid   "Your directory with *.less files"
+msgstr  ""
