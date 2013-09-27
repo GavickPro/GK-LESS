@@ -167,7 +167,7 @@ class GK_LESS {
         'meta' => array(
             'target' => '_blank'
         ),
-        'href'  => get_bloginfo('home') . '/wp-content/plugins/GK-LESS/errorlog.lesserrors'
+        'href'  => home_url() . '/wp-content/plugins/GK-LESS/errorlog.lesserrors'
       )
     );
   }

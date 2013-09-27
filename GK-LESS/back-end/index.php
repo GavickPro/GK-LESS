@@ -77,7 +77,7 @@
 	             </td>
 	             <td>
 	            	 <p>
-	            	 	<?php echo get_bloginfo('home'); ?>/
+	            	 	<?php echo home_url(); ?>/
 	            	 	<input type="text" name="gk_less_input_dir" value="<?php echo get_option('gk_less_input_dir'); ?>" placeholder="<?php _e('Your directory with *.less files', 'gk_less'); ?>" size="55" />
 	            	 </p>
 	             </td>
@@ -103,7 +103,7 @@
 	             </td>
 	             <td>
 	            	 <p>
-	            	    <?php echo get_bloginfo('home'); ?>/
+	            	    <?php echo home_url(); ?>/
 	            	 	<input type="text" name="gk_less_output_dir" value="<?php echo get_option('gk_less_output_dir'); ?>" placeholder="<?php _e('Your directory with *.css files', 'gk_less'); ?>" size="55" />
 	            	 </p>
 	            	 <p><small><?php _e('<strong>Warning!</strong> Please remember that the existing *.css files can be overrided by new ones generated from the *.less files.', 'gk_less'); ?></small></p>
