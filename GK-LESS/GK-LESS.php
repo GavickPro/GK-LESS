@@ -49,6 +49,7 @@ function gk_less_activate() {
 
   add_option( 'gk_less_state', 'on');
   add_option( 'gk_less_adminbar', 'on' );
+  add_option( 'gk_less_comments', 'off' );
   add_option( 'gk_less_input_dir', '' );
   add_option( 'gk_less_input_files', '' );
   add_option( 'gk_less_output_dir', '' );
@@ -62,6 +63,7 @@ function gk_less_deactivate() {
 
   delete_option( 'gk_less_state' );
   delete_option( 'gk_less_adminbar' );
+  delete_option( 'gk_less_comments' );
   delete_option( 'gk_less_input_dir' );
   delete_option( 'gk_less_input_files' );
   delete_option( 'gk_less_output_dir' );
@@ -71,6 +73,7 @@ function gk_less_deactivate() {
 function gk_less_init() {
   register_setting( 'gk_less_options', 'gk_less_state' );
   register_setting( 'gk_less_options', 'gk_less_adminbar' );
+  register_setting( 'gk_less_options', 'gk_less_comments' );
   register_setting( 'gk_less_options', 'gk_less_input_dir' );
   register_setting( 'gk_less_options', 'gk_less_input_files' );
   register_setting( 'gk_less_options', 'gk_less_output_dir' );
@@ -223,6 +226,10 @@ class GK_LESS {
     // prepare the LESS compiler
     require('phpless.php');
     $less = new lessc;
+
+    if(get_option('gk_less_comments') == 'on') {
+      $less->setPreserveComments(true);
+    }
     
     for($i = 0; $i < $len; $i++) {
       // remove the filename from the path

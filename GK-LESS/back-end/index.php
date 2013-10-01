@@ -70,6 +70,23 @@
 	            	 </p>
 	             </td>
 	           </tr>
+
+	           <tr>
+	             <td width="20%" align="right">
+	                 <p title="<?php _e('You can save the CSS block comments in the output CSS code.', 'gk_less'); ?>"><?php _e('Preserve comments:', 'gk_less'); ?></p>
+	             </td>
+	             <td>
+	            	 <p>
+	            	 	<label>
+	            	 	<input type="radio" name="gk_less_comments" value="on" <?php checked(get_option('gk_less_comments', 'on'), 'on'); ?>  />  &nbsp; <?php _e('Enabled', 'gk_less'); ?>
+	            	 	</label>
+	            	 	 &nbsp; 
+	            	 	<label>
+	            	 	<input type="radio" name="gk_less_comments" value="off" <?php checked(get_option('gk_less_comments', 'on'), 'off'); ?>  /> &nbsp; <?php _e('Disabled', 'gk_less'); ?>
+	            	 	</label>
+	            	 </p>
+	             </td>
+	           </tr>
 	           
 	           <tr>
 	             <td width="20%" align="right">
