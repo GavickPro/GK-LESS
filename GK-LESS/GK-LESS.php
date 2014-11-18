@@ -170,7 +170,7 @@ class GK_LESS {
         'meta' => array(
             'target' => '_blank'
         ),
-        'href'  => home_url() . '/wp-content/plugins/GK-LESS/errorlog.lesserrors'
+        'href'  => plugin_dir_url(__FILE__) . 'errorlog.lesserrors'
       )
     );
   }
@@ -264,7 +264,7 @@ class GK_LESS {
     }
 
     // save the errorlog
-    file_put_contents(ABSPATH . '/wp-content/plugins/GK-LESS/errorlog.lesserrors', $errorlog == '' ? __('Last LESS recompilation was successful', 'gk_less') : $errorlog);
+    file_put_contents( plugin_dir_path(__FILE__) .' errorlog.lesserrors', $errorlog == '' ? __('Last LESS recompilation was successful', 'gk_less') : $errorlog);
    }
    /**
     * Parsing directory to array
