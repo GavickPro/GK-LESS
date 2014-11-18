@@ -264,7 +264,7 @@ class GK_LESS {
     }
 
     // save the errorlog
-    file_put_contents( plugin_dir_path(__FILE__) .' errorlog.lesserrors', $errorlog == '' ? __('Last LESS recompilation was successful', 'gk_less') : $errorlog);
+    file_put_contents( plugin_dir_path(__FILE__) . 'errorlog.lesserrors', $errorlog == '' ? __('Last LESS recompilation was successful', 'gk_less') : $errorlog);
    }
    /**
     * Parsing directory to array
